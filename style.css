@@ -122,4 +122,19 @@ a{
     margin-top: 0%;
 }
 
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.call-to-action > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+}
