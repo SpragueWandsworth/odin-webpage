@@ -1,5 +1,5 @@
 * {
-
+    outline: solid lightcyan;
 }
 
 body {
@@ -34,6 +34,13 @@ a{
     margin-left: 20px;
 }
 
-.intro-block {
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
