@@ -19,11 +19,17 @@ body {
     font-weight: 900;
 }
 
+.hero-title {
+    margin: 0%;
+    padding: 0%;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
     font-size: 24px;
     flex-basis: 100%;
+    margin-bottom: 50px;
 }
 
 a{
@@ -37,10 +43,27 @@ a{
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0%;
 }
 
 .intro-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.intro-text > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    max-width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.intro-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
 }
