@@ -1,5 +1,5 @@
 * {
-    outline: solid lightcyan;
+    
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .hero-title, .header{
@@ -67,3 +68,33 @@ a{
     margin: auto;
     width: 90%;
 }
+
+.info-header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.info-containers {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.info-container {
+    display: flex;
+    max-width: min-content;
+    flex-wrap: wrap;
+}
+
+.info-container > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+
